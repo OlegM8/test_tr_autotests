@@ -11,6 +11,7 @@ def app(request):
     else:
         if not fixture.is_valid():
             fixture = Application()
+    fixture.open_homepage()
     return fixture
 
 

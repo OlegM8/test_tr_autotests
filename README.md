@@ -1,1 +1,1 @@
-# test_tr_autotests
+# python_training yoyo

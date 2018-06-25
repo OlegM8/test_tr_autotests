@@ -1,4 +1,6 @@
 from selenium import webdriver
+from fixture.session import SessionHelper
+from fixture.calculator import CalcHelper
 
 
 class Application:
@@ -6,7 +8,8 @@ class Application:
     def __init__(self):
         self.wd = webdriver.Chrome()
         self.wd.implicitly_wait(10)
-
+        self.session = SessionHelper(self)
+        self.calculator = CalcHelper(self)
 
     def is_valid(self):
         try:
