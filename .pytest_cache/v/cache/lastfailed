@@ -10,5 +10,7 @@
   "test/test_add_new_contact.py::test_add_new_empty_contact": true,
   "test_add_new_contact.py::test_add_new_contact": true,
   "test_add_new_contact.py::test_add_new_empty_contact": true,
+  "test_o.py::test_o": true,
+  "test_o.py::test_o::test_test_o": true,
   "vvvv.py::vvvv::test_vvvv": true
 }
